@@ -1,0 +1,36 @@
+#mainBox {
+  border: 2px solid black;
+  font-family: "Orbitron", sans-serif;
+}
+
+.sep {
+  text-align: center;
+  border: 2px solid whitesmoke;
+  background-color: black;
+}
+
+.innerTime {
+  border: 2px solid black;
+  margin-top: 10px;
+  background-color: red;
+  color: whitesmoke;
+}
+
+.innerCount {
+  font-size: 200%;
+  padding-top: 10px;
+}
+
+.jumbotron {
+  font-family: "Allerta Stencil";
+  background-color: black;
+  color: whitesmoke;
+}
+
+#remTime {
+  font-family: "Alegreya Sans SC";
+}
+
+#endMsg {
+  font-family: "Orbitron", sans-serif;
+}

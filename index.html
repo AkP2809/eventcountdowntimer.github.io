@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styling.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta Stencil"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya Sans SC"
+      rel="stylesheet"
+    />
+
+    <title>Event Countdown Timer</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container" align="center">
+        <h1>
+          <b>EVENT COUNTDOWN TIMER</b>
+        </h1>
+      </div>
+    </div>
+
+    <h2 id="remTime" align="center"></h2>
+    <div class="container" id="mainBox">
+      <div class="row align-items-center">
+        <div class="col col-12 col-sm-3 sep">
+          <div class="col col-12 col-sm-6 offset-sm-3 innerTime">
+            <p class="innerCount" id="days"></p>
+          </div>
+          <div class="w-100"></div>
+          <div class="col col-12 col-sm-6 offset-sm-3">
+            <p class="mb-0" style="margin-top: 10px; color: whitesmoke;">
+              <b>DAYS</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="col col-12 col-sm-3 sep">
+          <div class="col col-12 col-sm-6 offset-sm-3 innerTime">
+            <p class="innerCount" id="hours"></p>
+          </div>
+          <div class="w-100"></div>
+          <div class="col col-12 col-sm-6 offset-sm-3">
+            <p class="mb-0" style="margin-top: 10px; color: whitesmoke;">
+              <b>HOURS</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="col col-12 col-sm-3 sep">
+          <div class="col col-12 col-sm-6 offset-sm-3 innerTime">
+            <p class="innerCount" id="minutes"></p>
+          </div>
+          <div class="w-100"></div>
+          <div class="col col-12 col-sm-6 offset-sm-3">
+            <p class="mb-0" style="margin-top: 10px; color: whitesmoke;">
+              <b>MINUTES</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="col col-12 col-sm-3 sep">
+          <div class="col col-12 col-sm-6 offset-sm-3 innerTime">
+            <p class="innerCount" id="seconds"></p>
+          </div>
+          <div class="w-100"></div>
+          <div class="col col-12 col-sm-6 offset-sm-3">
+            <p class="mb-0" style="margin-top: 10px; color: whitesmoke;">
+              <b>SECONDS</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-sm offset-sm-8">
+          <h4 id="endMsg" style="visibility: hidden;">
+            <b>YOUR TIME HAS CAME!</b>
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="countDown.js"></script>
+  </body>
+</html>
